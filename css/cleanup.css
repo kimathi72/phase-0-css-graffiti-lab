@@ -5,6 +5,9 @@
   #wall.tag-1 + #tag-2 {
     display: none;
   }
-  #wall.tag-1 + #tag-2 + #tag-3.slick wicked {
+  #wall.tag-1 + #tag-2 + #tag-3[class="slick wicked"] {
     display: none;
-  }
+  } 
+  #wall.tag-1 + #tag-2 + #tag-3[class="slick wicked"] + .parent #tag-4 {
+    display: none;
+  } 
